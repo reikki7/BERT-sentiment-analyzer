@@ -2,7 +2,6 @@
 
 This project is a web application that performs sentiment analysis using a pre-trained BERT model. The frontend is built with React and Vite, while the backend is powered by Flask. The application allows users to input text and receive sentiment analysis results indicating whether the text is negative, neutral, or positive.
 
-
 ## Prerequisites
 
 - Node.js and npm installed
@@ -55,6 +54,12 @@ This project is a web application that performs sentiment analysis using a pre-t
 
 1. Open your web browser and navigate to the IP shown in the CLI.
 2. Enter text into the input field and submit it to receive sentiment analysis results.
+
+## Running with GPU
+
+If you want to run the backend using GPU for faster performance, make sure that the CUDA toolkit is installed on your machine. You can follow the instructions at [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) to install it.
+
+After installing the CUDA toolkit, you need to install the appropriate version of PyTorch that supports CUDA. Visit [PyTorch Get Started](https://pytorch.org/get-started/locally/) and follow the instructions to install PyTorch with CUDA support.
 
 ## Project Details
 
