@@ -1,4 +1,4 @@
-# BERT Sentiment Analysis App
+# BERT Sentiment Analyzer
 
 This project is a web application that performs sentiment analysis using a pre-trained BERT model. The frontend is built with React and Vite, while the backend is powered by Flask. The application allows users to input text and receive sentiment analysis results indicating whether the text is negative, neutral, or positive.
 
