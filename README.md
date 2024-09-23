@@ -61,7 +61,7 @@ If you want to run the backend using GPU for faster performance, make sure that 
 
 After installing the CUDA toolkit, you need to install the appropriate version of PyTorch that supports CUDA. Visit [PyTorch Get Started](https://pytorch.org/get-started/locally/) and follow the instructions to install PyTorch with CUDA support.
 
-You should uninstall the regular version of torch before installing the GPU version to avoid any conflicts.
+You should uninstall the regular version of torch before installing the GPU version to avoid any conflicts:
 
 ```sh
 pip uninstall torch
